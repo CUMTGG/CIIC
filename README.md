@@ -13,7 +13,7 @@ Implementation of __Show, Deconfound and Tell: Image Captioning with Causal Infe
 
 ## Preparation
 ### 1. Download Bottom-up features. Prepare the training dataset as in https://github.com/ruotianluo/self-critical.pytorch
-### 2. Download our features. https://pan.baidu.com/s/1DysPfYlabaJ7ae5G7xUeJw  [key]:mnpp
+### 2. Download our features. https://pan.baidu.com/s/1WRntEOG0XIBLaEOxILRl9A  [key]:pd6y
 
 ## Training
 *Note: our repository is mainly based on [https://github.com/ruotianluo/self-critical.pytorch).
@@ -22,7 +22,7 @@ Implementation of __Show, Deconfound and Tell: Image Captioning with Causal Infe
 ```
 # for training
 python train.py --id exp --caption_model CIIC --input_json data/cocotalk.json --input_label_h5 data/cocotalk_label.h5 --input_att_dir data/cocobu_att --input_att_dir_iod data/IOD --glove_embedding_dict data/Glove_embedding.npy --visual_dict data/vis.npy --lin_dict data/lin.npy --batch_size 10 --N_enc 6
---N_dec 6 --d_model 512 --d_ff 2048 --num_att_heads 8 --dropout: 0.1 --learning_rate 0.0003 --learning_rate_decay_start 3 --learning_rate_decay_rate 0.5 --noamopt_warmup 20000 --self_critical_after 30
+--N_dec 6 --d_model 512 --d_ff 2048 --num_att_heads 8 --dropout 0.1 --learning_rate 0.0003 --learning_rate_decay_start 3 --learning_rate_decay_rate 0.5 --noamopt_warmup 20000 --self_critical_after 30
 ```
 ### 2. Evaluating the model
 ```bash
