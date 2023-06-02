@@ -13,7 +13,7 @@ Implementation of __Show, Deconfound and Tell: Image Captioning with Causal Infe
 
 ## Preparation
 ### 1. Download Bottom-up features. Prepare the training dataset as in https://github.com/ruotianluo/self-critical.pytorch
-### 2. Download our features. https://pan.baidu.com/s/1_8B95prrHS2aLUUddKxc5Q [key]:y2mf
+### 2. Download our features. https://pan.baidu.com/s/11PIlLzV6RQ39AOfjszsvwA [key]:6x6e
 
 ## Training
 *Note: our repository is mainly based on [https://github.com/ruotianluo/self-critical.pytorch).
